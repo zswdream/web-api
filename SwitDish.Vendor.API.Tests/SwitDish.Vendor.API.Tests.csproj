@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+    <PackageReference Include="Unity" Version="5.11.7" />
+    <PackageReference Include="Unity.WebAPI" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SiwtDish.Vendor.Domain\SwitDish.Vendor.Domain.csproj" />
+    <ProjectReference Include="..\SwitDish.DataModel_OLD\SwitDish.DataModel_OLD.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Controllers\ApiAgentControllerTests\ApiAgentController_Get_ById_Ok.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Controllers\ApiAgentControllerTests\ApiAgentController_Post_Ok.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

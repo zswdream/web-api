@@ -1,0 +1,20 @@
+[
+  {
+    "AgentId": "<agentId>",
+    "AgentFirstName": "<agentFirstName>",
+    "AgentLastName": "<agentLastName>",
+    "UserName": "<userName>",
+    "Email": "<email>",
+    "Password": "<password>",
+    "Phone": "<phone>",
+    "Gender": "<gender>",
+    "Title": "<title>",
+    "RoleId": 0,
+    "UserId": "<userId>",
+    "CompanyId": "<companyId>",
+    "VendorId": 0,
+    "DelieveryCount": "3",
+    "IsActive": "<isActive>",
+    "DateRegistered": "####-##-##T##:##:##.###Z"
+  }
+]
